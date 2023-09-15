@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website</title>
+    <style>
+        /* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Style the header and navigation bar */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.content {
+    flex: 1;
+    margin-top: 180px;
+    margin-bottom: 410px;
+    padding-left: 170px;
+    padding-top: 50px;
+    color: aliceblue;
+}
+
+/* Style the image and text layout */
+.image {
+    flex: 1;
+    padding-left: 140px;
+    padding-top: 140px;
+    
+}
+
+.image img {
+    max-width: 70%;
+    border-radius: 120px;
+    width: 380px;
+    height: 380px;
+}
+
+/* Add more styles as needed */
+#firstheading{
+    font-size: 35px;
+    color: rgb(202, 191, 191);
+}
+#firstpara{
+    font-size: x-large;
+    color: aliceblue;
+}
+#secpara{
+    font-size: x-large;
+    color: aliceblue;
+}
+ /* Center the title */
+ .team-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:whitesmoke;
+}
+
+/* Create a flex container for the team members */
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+/* Style for each team member card */
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+.about-image{
+    flex: 1;
+    padding-left: 180px;
+    width: 180px;
+}
+.about-image img{
+    max-width: 70%;
+}
+
+/* Style for the team member photos */
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Style for the team member names */
+.team-member p {
+    font-weight: bold;
+}
+.about-content{
+    color: aliceblue;
+    flex: 1;
+}
+.heading{
+   color:  rgb(202, 191, 191);
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .navbar li a:hover{
+    color: red;
+  }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Ecovision">Project</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="content">
+            <h1 id="firstheading">Revolutionize Sustainability with Digital Precision:</h1>
+            <p id="firstpara">Unveiling Water Footprints for Everyday Items. Embrace Cutting-Edge Technology for a
+                Greener Tomorrow. Calculate, Conserve, Change! </p>
+            <p id="secpara">#SustainableFuture #DigitalInnovation</p>
+        </div>
+        <div class="image">
+            <img src="aaron-burden-dXYE1d08BiY-unsplash.jpg" alt="Home Image">
+        </div>
+    </section>
+
+   
+
+    <section id="project">
+        <div class="content">
+            <h2>Our Project</h2>
+            <p>Learn more about our exciting project.</p>
+        </div>
+        <div class="image">
+            <img src="project-image.jpg" alt="Project Image">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2 class="heading">Use of digital technology to calculate water footprints for different daily use </h2>
+            <p>Digital technology has ushered in a transformative era in the calculation of water footprints for various daily use items. Through the integration of advanced computational tools, data analytics, and remote sensing, we can now comprehensively assess the environmental impact of products from the moment of raw material extraction to their ultimate disposal. This process begins with the collection and synthesis of extensive datasets from multiple sources, encompassing water usage during production, transportation, usage, and disposal. Geographic Information Systems (GIS) play a pivotal role in this endeavor, allowing for location-specific assessments that consider regional disparities in water availability and quality. Machine learning algorithms further refine these calculations by identifying patterns and trends in water consumption data, ensuring that the assessments remain accurate and up-to-date.</p>
+        <p>Consumer engagement is another facet empowered by digital technology, with user-friendly mobile applications and web platforms allowing individuals to estimate the water footprints of everyday items instantly. Moreover, digital labels and certifications provide consumers with readily accessible information on a product's environmental impact, fostering informed choices. Continuous monitoring and updates, enabled by digital tools, ensure that water footprint data remains reflective of evolving production methods and supply chain dynamics. In essence, digital technology has revolutionized our ability to quantify and understand the water footprint of daily use items, making sustainability more accessible and actionable for both individuals and industries as we strive to preserve our precious water resources and promote a more eco-conscious future.</p>
+        </div>
+        <div class="about-image">
+            <img src="water pootprints.png" alt="About Image">
+        </div>
+    </section>
+    <section id="team">
+        <div class="team-title">
+            <h1 class="heading">Meet Our Team</h1>
+
+        <div class="team-members">
+            <div class="team-member">
+                <img src="kishan.jpeg" alt="Person 1">
+                <p>Kishan koundinya</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="mukut.jpeg" alt="Person 2">
+                <p>Mukut Kumar</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="namrata.jpeg" alt="Person 3">
+                <p>Namrata singh</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="niharika.jpeg" alt="Person 4">
+                <p>Niharika Singh</p>
+            </div>
+            <div class="team-member">
+                <img src="rithik.jpeg" alt="Person 5">
+                <p>Rithik Asthana</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="person6.jpg" alt="Person 6">
+                <p>Tarun Prakash Rai</p>
+            </div>
+        </div>  
+    </div>  
+       
+    </section>
+</body>
+
+</html>
